@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Indomie Goreng Rendang",
+        "img": "https://i.ibb.co/VNtHjnT/indomie-goreng-rendang.png",
+        "description": "Masakan instan terenak di dunia",
+        "stock": 10,
+        "price": 3900
+    },
+    {
+        "id": 2,
+        "name": "Mie Gelas Rendang",
+        "img": "https://i.ibb.co/743tbdB/pedes-gledeek-text.png",
+        "description": "Mi instan khusus anak kosan",
+        "stock": 3,
+        "price": 1500
+    },
+    {
+        "id": 3,
+        "name": "Bakmi Mewah",
+        "img": "https://i.ibb.co/44CcFNM/products-470365-image-B665-39153621-removebg-preview.png",
+        "description": "Kalau anak kosan jangan macam2 deh",
+        "stock": 80,
+        "price": 10000
+    },
+    {
+        "id": 4,
+        "name": "Pop Mie Ramen",
+        "img": "https://i.ibb.co/80bT15G/20132339-1.jpg",
+        "description": "Variasi mie untuk anak kos",
+        "stock": 8,
+        "price": 5500
+    }
+]

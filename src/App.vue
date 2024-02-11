@@ -1,15 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container">
+    <HeaderApp />
+    <div>
+      <ProductList />
+      <CartApp />
+    </div>
+    
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderApp from './components/HeaderApp.vue';
+import ProductList from './components/ProductList.vue';
+import CartApp from './components/CartApp.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderApp,
+    ProductList,
+    CartApp
   }
 }
 </script>
@@ -21,6 +31,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
